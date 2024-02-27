@@ -1,9 +1,8 @@
-# PyTorch Faster-RCNN Tutorial
+# SoMap using PyTorch Faster-RCNN 
 
-Learn how to start an **object detection deep learning project using
-PyTorch and the Faster-RCNN architecture** in this beginner-friendly tutorial.
-Based on the blog
-series [Train your own object detector with Faster-RCNN & PyTorch](https://johschmidt42.medium.com/train-your-own-object-detector-with-faster-rcnn-pytorch-8d3c759cfc70)
+CNN and GMM for automatic soma annotation in plasma membrane label, trained on nuclear or cytosolic labels.
+
+Based on  [Train your own object detector with Faster-RCNN & PyTorch](https://johschmidt42.medium.com/train-your-own-object-detector-with-faster-rcnn-pytorch-8d3c759cfc70)
 by Johannes Schmidt.
 
 ![image1](docs/images/image1.png)
