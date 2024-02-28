@@ -1,19 +1,15 @@
-# PyTorch Faster-RCNN Tutorial
+# SoMap using PyTorch Faster-RCNN 
 
-Learn how to start an **object detection deep learning project using
-PyTorch and the Faster-RCNN architecture** in this beginner-friendly tutorial.
-Based on the blog
-series [Train your own object detector with Faster-RCNN & PyTorch](https://johschmidt42.medium.com/train-your-own-object-detector-with-faster-rcnn-pytorch-8d3c759cfc70)
+CNN and GMM for automatic soma annotation in plasma membrane label, trained on nuclear or cytosolic labels.
+
+Based on  [Train your own object detector with Faster-RCNN & PyTorch](https://johschmidt42.medium.com/train-your-own-object-detector-with-faster-rcnn-pytorch-8d3c759cfc70)
 by Johannes Schmidt.
-
-![image1](docs/images/image1.png)
-![image2](docs/images/image2.png)
 
 ## Summary
 
 You can train the model using the [training script](training_script.py).
 
-In addition, I provide jupyter-notebooks for various tasks such as
+Jupyter-notebooks are given for various tasks such as
 **creating & exploring datasets**,
 **running inference** and
 **visualizing anchor boxes**:
@@ -77,10 +73,6 @@ Please make sure that you meet these requirements:
 - neptune-client: [0.16.8](https://github.com/neptune-ai/neptune-client/releases/tag/0.16.18)
 - napari: [0.4.17](https://github.com/napari/napari/releases/tag/v0.4.17)
 
-## Dataset
-
-The [dataset](src/pytorch_faster_rcnn_tutorial/data)
-consists of 20 selfie-images randomly selected from the internet.
 
 ## Faster-RCNN model
 
