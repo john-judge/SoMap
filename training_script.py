@@ -17,20 +17,20 @@ from pytorch_lightning.loggers.neptune import NeptuneLogger
 from torch.utils.data import DataLoader
 from torchvision.models.detection.faster_rcnn import FasterRCNN
 
-from pytorch_faster_rcnn_tutorial.backbone_resnet import ResNetBackbones
-from pytorch_faster_rcnn_tutorial.datasets import ObjectDetectionDataSet
-from pytorch_faster_rcnn_tutorial.faster_RCNN import (
+from src.pytorch_faster_rcnn_tutorial.backbone_resnet import ResNetBackbones
+from src.pytorch_faster_rcnn_tutorial.datasets import ObjectDetectionDataSet
+from src.pytorch_faster_rcnn_tutorial.faster_RCNN import (
     FasterRCNNLightning,
     get_faster_rcnn_resnet,
 )
-from pytorch_faster_rcnn_tutorial.transformations import (
+from src.pytorch_faster_rcnn_tutorial.transformations import (
     AlbumentationWrapper,
     Clip,
     ComposeDouble,
     FunctionWrapperDouble,
     normalize_01,
 )
-from pytorch_faster_rcnn_tutorial.utils import (
+from src.pytorch_faster_rcnn_tutorial.utils import (
     collate_double,
     get_filenames_of_path,
     log_model_neptune,

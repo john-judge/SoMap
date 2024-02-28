@@ -7,9 +7,9 @@ from torch.utils.data import Dataset
 from torchvision.models.detection.transform import GeneralizedRCNNTransform
 from torchvision.ops import box_convert
 
-from pytorch_faster_rcnn_tutorial.anchor_generator import get_anchor_boxes
-from pytorch_faster_rcnn_tutorial.transformations import re_normalize
-from pytorch_faster_rcnn_tutorial.viewers.dataset_viewer import (
+from src.pytorch_faster_rcnn_tutorial.anchor_generator import get_anchor_boxes
+from src.pytorch_faster_rcnn_tutorial.transformations import re_normalize
+from src.pytorch_faster_rcnn_tutorial.viewers.dataset_viewer import (
     DatasetViewer,
     make_bbox_napari,
 )

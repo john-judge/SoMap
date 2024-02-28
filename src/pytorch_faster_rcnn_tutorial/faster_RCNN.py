@@ -9,17 +9,17 @@ from torchvision.models.detection.faster_rcnn import FasterRCNN
 from torchvision.models.detection.rpn import AnchorGenerator
 from torchvision.ops import MultiScaleRoIAlign
 
-from pytorch_faster_rcnn_tutorial.backbone_resnet import (
+from src.pytorch_faster_rcnn_tutorial.backbone_resnet import (
     BackboneWithFPN,
     ResNetBackbones,
     get_resnet_backbone,
     get_resnet_fpn_backbone,
 )
-from pytorch_faster_rcnn_tutorial.metrics.enumerators import MethodAveragePrecision
-from pytorch_faster_rcnn_tutorial.metrics.pascal_voc_evaluator import (
+from src.pytorch_faster_rcnn_tutorial.metrics.enumerators import MethodAveragePrecision
+from src.pytorch_faster_rcnn_tutorial.metrics.pascal_voc_evaluator import (
     get_pascalvoc_metrics,
 )
-from pytorch_faster_rcnn_tutorial.utils import from_dict_to_boundingbox
+from src.pytorch_faster_rcnn_tutorial.utils import from_dict_to_boundingbox
 
 logger: logging.Logger = logging.getLogger(__name__)
 
